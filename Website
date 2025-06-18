@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartGear - Buy Phones Online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-600">SmartGear</h1>
+        <nav class="space-x-4">
+          <a href="#" class="hover:text-blue-600">Home</a>
+          <a href="#" class="hover:text-blue-600">Shop</a>
+          <a href="#" class="hover:text-blue-600">About</a>
+          <a href="#" class="hover:text-blue-600">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-16">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold mb-4">Find Your Perfect Smartphone</h2>
+        <p class="mb-6">Top brands, unbeatable prices, and fast delivery.</p>
+        <a
+          href="#products"
+          class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition"
+          >Shop Now</a
+        >
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="py-12">
+      <div class="container mx-auto px-4">
+        <h3 class="text-2xl font-bold mb-8 text-center">Featured Phones</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Product Card -->
+          <div class="bg-white rounded-xl shadow-md p-4">
+            <img src="https://via.placeholder.com/300x200" alt="Phone 1" class="w-full h-48 object-cover rounded" />
+            <h4 class="text-lg font-semibold mt-4">iPhone 14 Pro</h4>
+            <p class="text-sm text-gray-600">128GB, Deep Purple</p>
+            <p class="text-blue-600 font-bold mt-2">$999</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Buy Now</button>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-md p-4">
+            <img src="https://via.placeholder.com/300x200" alt="Phone 2" class="w-full h-48 object-cover rounded" />
+            <h4 class="text-lg font-semibold mt-4">Samsung Galaxy S23</h4>
+            <p class="text-sm text-gray-600">256GB, Phantom Black</p>
+            <p class="text-blue-600 font-bold mt-2">$899</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Buy Now</button>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-md p-4">
+            <img src="https://via.placeholder.com/300x200" alt="Phone 3" class="w-full h-48 object-cover rounded" />
+            <h4 class="text-lg font-semibold mt-4">Google Pixel 8</h4>
+            <p class="text-sm text-gray-600">128GB, Obsidian</p>
+            <p class="text-blue-600 font-bold mt-2">$799</p>
+            <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t mt-12">
+      <div class="container mx-auto px-4 py-6 text-center text-sm text-gray-500">
+        © 2025 SmartGear. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
